@@ -1,0 +1,162 @@
+:root{
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+   background: var(--preta);
+   font-family: 'Arial', Times, serif;
+   color:white;
+}
+
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Gotham', Times;
+    font-size:40px;
+   
+
+}
+
+header nav a{
+    text-decoration:none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+
+header nav a:hover{
+    color:#fff;
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/Os\ anéis\ do\ poder.jpg');
+
+    height:400px;
+    background-size:cover;
+ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color:white;
+    color:black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+
+.carrosel-filmes{
+    margin-top:5px;
+}
+
+
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+
+#listaFilmes img {
+    margin: 10px;
+    max-height: 250px;
+  }
+  
+  .form-wrapper {
+    margin: 0 0 15px;
+  }
+  
+  .form-wrapper input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+  }
+  
+  .form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    background: #da1e26;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .form-wrapper button:hover {
+    opacity: 0.8;
+  }
+  
